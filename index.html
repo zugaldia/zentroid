@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Antonio Zugaldia">
+    <meta name="description" content="Drop some markers and I'll let you know the ideal location to meet your friends for a beer.">
+    <title>Zentroid</title>
+    
+    <link rel="stylesheet" href="./static/leaflet/dist/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="./static/leaflet/dist/leaflet.ie.css" /><![endif]-->
+    <link href="./static/zentroid.css" rel="stylesheet">
+    <link href="./static/favicon.ico" rel="shortcut icon">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="./static/leaflet/dist/leaflet.js" type="text/javascript"></script>
+    <script src="./static/wax/dist/wax.leaf.min.js" type="text/javascript"></script>
+    <script src="./static/zentroid.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <a href="https://github.com/zugaldia/zentroid"><img id="ribbon" src="./static/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+    <div id="zentroid-box">
+      <p>So, you want to meet up with some friends for a beer and you're wondering where's the fairest point to meet.
+      Well, that's why I'm here for. Click on the map and add the location of your friends to find out.</p>
+      <p id="zentroid-message">Welcome.</p>
+      <form id="zentroid-layer-form"><input type="checkbox" id="zentroid-layer" /> Switch basemap</form>
+    </div>
+    <div id="zentroid-map"></div>
+  </body>
+</html>

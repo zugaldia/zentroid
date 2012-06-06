@@ -57,7 +57,7 @@ function Zentroid(message_element) {
 			if (centroid) { map.removeLayer(centroid); } // Remove previous one
 			centroid = new L.Marker(zentroid._get_centroid_coordinates(), {icon: new CentroidIcon()});
 			map.addLayer(centroid);
-			zentroid.set_message('The X marks the spot.');
+			zentroid.set_message('X marks the spot.');
 		}
 	}
 	

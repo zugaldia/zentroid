@@ -2,7 +2,7 @@ Drop some markers and I'll let you know the ideal location to meet your friends 
 
 You can see the app in action here: http://zugaldia.github.com/zentroid
 
-When you click on the map a marker at that location will be added. When you have two or more we'll automatically drop an X with the [centroid](http://en.wikipedia.org/wiki/Centroid) location.
+When you click on the map a marker at that location will be added. When you have two or more we'll automatically drop an X with the [centroid](http://en.wikipedia.org/wiki/Centroid) location. The centroid of a set of locations is the "average" (arithmetic mean) of all latitudes and longitudes.
 
 NOTES
 -----
